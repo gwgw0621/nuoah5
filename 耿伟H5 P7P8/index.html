@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" rem="750">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>h5</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/u-reset.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="s7">
+                    <div class="bg1">
+                        <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"></div>
+                        <div class="t1 ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="0.3s" swiper-animate-delay="0.2s"></div>
+                        <div class="t2 ani" swiper-animate-effect="pulse" swiper-animate-duration="0.3s" swiper-animate-delay="0.1s">
+                            <div class="text">
+                                诺阿科技有限公司成立于2019年，专注于通过产学合作，利 用创新教育理念和技术培养战略性新兴产业和新商业领域人 才，构建产教融合新生态。为长治地区经济转型、产业结构 转型带来持续源动力。
+                                <br> 诺阿科技是山西优逸客科技有限公司全资子公司，作为山西 省首家国家教育部公示协同育人单位，优逸客长期致力于高 校产教融合、协同育人服务，是我国互联网职业教育知名品
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg2 ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" ">
+                        <div class="bg2_2 ani " swiper-animate-effect="rotateInDownLeft " swiper-animate-duration="0.5s " swiper-animate-delay="0.3s ">
+                            <div class="an ani " swiper-animate-effect="rotateIn " swiper-animate-duration="0.8s " swiper-animate-delay="0.9s ">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="bg3 ">
+                        <div class="xia "></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="s8 ">
+                    <div class="ppp1 ani " swiper-animate-effect="bounceInLeft " swiper-animate-duration="0.5s " swiper-animate-delay="0.3s "></div>
+                    <div class="ppp2 ani " swiper-animate-effect="rubberBand " swiper-animate-duration="0.5s " swiper-animate-delay="0.3s "></div>
+                    <div class="ppp3 ">
+                        <div class="img1 ">
+
+                        </div>
+                    </div>
+                    <div class="ppp4 ani " swiper-animate-effect="bounceIn " swiper-animate-duration="0.4s " swiper-animate-delay="0.2s ">
+
+                        <div class="siyi1 ">
+                            Contact.
+                        </div>
+                        <div class="siyi2 "></div>
+                        <div class="siyi3 ">山西省长治市保宁门东街73号</div>
+
+                        <div class="siyi4 ">温蒙 老师</div>
+                        <div class="siyi5 ">185 3559 3618</div>
+                    </div>
+                    <div class="ppp5 ani " swiper-animate-effect="bounceInLeft " swiper-animate-duration="0.8s " swiper-animate-delay="0.5s ">
+                        <div class="texts TTT1 ">
+                            咨询服务
+                        </div>
+                        <div class="TEXTSS text2 ">
+                            提供各类客户业务支持,包括产 品咨询、技术支持、建议反馈, 以及购买帮助等。
+
+                        </div>
+                    </div>
+                    <div class="ppp6 ani " swiper-animate-effect="lightSpeedIn " swiper-animate-duration="0.8s " swiper-animate-delay="0.5s ">
+                        <div class="texts TTT1 ">
+                            校企合作
+                        </div>
+                        <div class="TEXTSS text2 ">
+                            合作伙伴战略合作，软件产品合作，渠道分销代理合作等合作洽谈。
+                        </div>
+                    </div>
+                    <div class="ppp7 ">
+                        <div class="bo1 ">
+                            <img src="./images/55.png " width=".2rem " height=".2rem " alt=" ">
+                            <span>400-1234-123</span>
+
+
+                        </div>
+                        <div class="bo2 ">
+                            <img src="./images/56.png " width=".2rem " height=".2rem " alt=" ">
+                            <span>service@unque.com</span>
+                        </div>
+                        <div class="bo3 "></div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <script src="js/swiper.min.js "></script>
+        <script src="js/swiper.animate1.0.3.min.js "></script>
+        <script src="js/index.js "></script>
+
+</body>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'vertical', // 垂直切换选项
+
+        on: {
+            init: function() {
+                swiperAnimateCache(this); //隐藏动画元素 
+                swiperAnimate(this); //初始化完成开始动画
+            },
+            slideChangeTransitionEnd: function() {
+                swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+                //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+            }
+        }
+
+
+
+    })
+</script>
+
+<!-- 3. 在需要运动的元素上面增加类名  ani   ，和其他的类似插件相同，Swiper Animate需要指定几个参数：
+
+swiper-animate-effect：切换效果，例如 fadeInUp 
+swiper-animate-duration：可选，动画持续时间（单位秒），例如 0.5s
+swiper-animate-delay：可选，动画延迟时间（单位秒），例如 0.3s
+
+<div class="swiper-slide ">
+<p class="ani " swiper-animate-effect="bounceIn " swiper-animate-duration="0.5s " swiper-animate-delay="0.3s ">内容</p>
+</div> -->
+
+</html>

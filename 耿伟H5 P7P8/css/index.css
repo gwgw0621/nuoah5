@@ -1,0 +1,303 @@
+.swiper-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.s7 .s8 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.s7 .bg1 {
+    width: 7.5rem;
+    height: 6.8rem;
+    background: url("../images/bg4.png");
+    background-size: cover;
+}
+
+.s7 .logo {
+    width: 1.07rem;
+    height: 0.54rem;
+    background: url(../images/1.png);
+    background-size: cover;
+    position: absolute;
+    left: 0.29rem;
+    top: 0.29rem;
+}
+
+.s7 .t1 {
+    width: 4.78rem;
+    height: 0.66rem;
+    background-image: url("../images/49.png");
+    background-size: cover;
+    position: absolute;
+    left: 1.35rem;
+    top: 1.45rem;
+}
+
+.s7 .t2 {
+    width: 6.9rem;
+    height: 3.45rem;
+    background-color: #3131315e;
+    padding-top: .15rem;
+    padding-left: .15rem;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.29rem;
+    top: 3rem;
+    font-size: 0.22rem;
+    line-height: .44rem;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgb(230, 228, 228);
+}
+
+.s7 .bg2 {
+    width: 6.85rem;
+    height: 3.9rem;
+    border: 1px solid #C4CEE1;
+    position: absolute;
+    top: 7.4rem;
+    left: .3rem;
+}
+
+.s7 .bg2 .bg2_2 {
+    width: 6.36rem;
+    height: 3.45rem;
+    background: url("../images/51.png");
+    background-size: cover;
+    position: absolute;
+    top: 0.23rem;
+    left: .23rem;
+}
+
+.s7 .bg2 .an {
+    width: 1.24rem;
+    height: 1.24rem;
+    background: url("../images/50.png");
+    background-size: cover;
+    position: absolute;
+    left: 2.5rem;
+    top: 1.15rem
+}
+
+.s7 .bg3 {
+    width: 100vw;
+    height: 1.45rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.s7 .xia {
+    width: .7rem;
+    height: .4rem;
+    background: url("../images/17.png");
+    background-size: cover;
+    position: absolute;
+    left: 3.52rem;
+    top: .5rem;
+}
+
+.s8 .ppp1 {
+    width: 1.1rem;
+    height: .56rem;
+    background: url("../images/18.png");
+    background-size: cover;
+    position: absolute;
+    left: .3rem;
+    top: .3rem;
+}
+
+.s8 .ppp2 {
+    width: 6.1rem;
+    height: .70rem;
+    background: url("../images/52.png");
+    background-size: cover;
+    position: absolute;
+    left: .7rem;
+    top: 1.35rem;
+}
+
+.s8 .ppp3 {
+    width: 6.9rem;
+    height: 3.5rem;
+    background: url("../images/53.png");
+    background-size: cover;
+    position: absolute;
+    left: .3rem;
+    top: 2.58rem;
+}
+
+.s8 .ppp3 .img1 {
+    width: .7rem;
+    height: .75rem;
+    background: url("../images/54.png");
+    position: absolute;
+    left: 2rem;
+    top: 1.4rem;
+    background-size: cover;
+}
+
+.s8 .ppp4 {
+    width: 6.9rem;
+    height: 1.6rem;
+    background: #ffffff;
+    /* border: 1px solid rgb(90, 90, 90); */
+    box-shadow: 2px 1px 5px 1px rgba(133, 133, 133, 0.2);
+    /* 阴影   x   y 模糊程度  大小  颜色 */
+    background-size: cover;
+    position: absolute;
+    left: .3rem;
+    top: 6.6rem;
+}
+
+
+/* .s8 .ppp4 .si1 {
+    width: 100vw;
+    height: .2rem;
+    background-color: rgb(204, 189, 52);
+    position: absolute;
+    top: .37rem;
+    left: .32rem;
+} */
+
+.s8 .ppp4 .siyi1 {
+    width: .8rem;
+    height: .2rem;
+    font-size: .2rem;
+    color: rgba(5, 24, 64, .5);
+    font-weight: 700;
+    line-height: .2rem;
+    position: absolute;
+    top: .37rem;
+    left: .32rem;
+}
+
+.s8 .ppp4 .siyi3 {
+    width: 3.2rem;
+    height: .2rem;
+    color: rgba(5, 24, 64, .4);
+    font-size: .14rem;
+    line-height: .2rem;
+    position: absolute;
+    top: .33rem;
+    right: .15rem;
+}
+
+.s8 .ppp4 .siyi4 {
+    width: 2rem;
+    height: .26rem;
+    color: #767B8A;
+    font-size: .26rem;
+    font-weight: 800;
+    line-height: .26rem;
+    position: absolute;
+    bottom: .30rem;
+    left: .35rem;
+}
+
+.s8 .ppp4 .siyi5 {
+    width: 3.2rem;
+    height: .32rem;
+    color: rgba(49, 49, 49, 0.966);
+    font-size: .32rem;
+    font-weight: 500;
+    line-height: .32rem;
+    position: absolute;
+    bottom: .30rem;
+    right: 2rem;
+}
+
+.s8 .ppp5 {
+    width: 3.3rem;
+    height: 1.8rem;
+    background: #2ABB75;
+    background-size: cover;
+    position: absolute;
+    left: .3rem;
+    top: 8.7rem;
+}
+
+.s8 .texts {
+    width: 1.5rem;
+    height: .29rem;
+    font-size: .3rem;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    line-height: .21rem;
+    position: absolute;
+    top: .24rem;
+    left: .26rem;
+}
+
+.s8 .TEXTSS {
+    width: 3rem;
+    height: .71rem;
+    font-size: .18rem;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: .3rem;
+    position: absolute;
+    top: .71rem;
+    left: .24rem;
+}
+
+.s8 .ppp6 {
+    width: 3.3rem;
+    height: 1.8rem;
+    background: #00ABF6;
+    background-size: cover;
+    position: absolute;
+    right: .3rem;
+    top: 8.7rem;
+}
+
+.s8 .ppp7 {
+    width: 100vw;
+    height: 2.4rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.s8 .ppp7 .bo1 {
+    width: 7.5rem;
+    height: .3rem;
+    color: #999AA6;
+    font-size: .16rem;
+    position: absolute;
+    top: .05rem;
+    left: 2.65rem;
+}
+
+.s8 .ppp7 .bo2 {
+    width: 7.5rem;
+    line-height: normal;
+    height: .2rem;
+    color: #999AA6;
+    font-size: .16rem;
+    position: absolute;
+    top: .55rem;
+    left: 2.4rem;
+}
+
+.s8 .ppp7 .span {
+    position: relative;
+    top: 0.2rem;
+}
+
+.s8 .ppp7 .bo3 {
+    width: .7rem;
+    height: .4rem;
+    position: absolute;
+    bottom: .5rem;
+    left: 3.4rem;
+    background: url("../images/17.png");
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
